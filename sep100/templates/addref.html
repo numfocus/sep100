@@ -1,0 +1,31 @@
+<!doctype html>
+<head>
+<title>Add a reference</title>
+<link rel="stylesheet" href="static/sep100.css" type="text/css" />
+</head>
+
+<body>
+  <div class="documentframe">
+  <div class="document">
+    <br />
+    {% if doi %}
+      <h1>Got {{ doi }}!</h1>   
+    {% endif %}
+
+    <div id="refbox">
+    <form class="refsubmit" method="post">
+      <div class="refitemname"><a style="font-size: 150%">DOI</a></div>
+      <div class="refiteminput"><input type="text" name="doi" size="18" /></div>
+      <div class="refitemtip"><a style="font-size: 90%">DOI number.</a></div>
+      <div class="refitemclear" />
+      <br />
+      <br />
+      <input type="submit" value="Submit Reference">
+      <br />
+    </form>
+    <br />
+    <br />
+  </div>
+  </div>
+</div>
+</body>

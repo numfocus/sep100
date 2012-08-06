@@ -1,0 +1,51 @@
+body
+{
+  font-family: {{ body_font }};
+  font-size: 100%;
+  background-color: {{ body_bgcolor }};
+}
+
+
+div.documentframe
+{
+  position: relative;
+  width: 85%;
+  margin: 30px auto 10px auto;
+  background-color: {{ document_bgcolor }};
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+div.document
+{
+  position: relative;
+  margin: 30px 30px 30px 30px;
+}
+
+
+#refbox div.refitemname
+{
+  float: left;
+  width: 25%;
+}
+
+#refbox div.refiteminput
+{
+  float: left;
+  width: 30%;
+}
+
+#refbox div.refitemtip
+{
+  float: left;
+  width: auto;
+}
+
+#refbox div.refitemclear
+{
+  clear: all;
+}
