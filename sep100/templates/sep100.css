@@ -20,6 +20,11 @@ div.documentframe
 }
 
 
+label, input {
+    display: block;
+    margin-top: 10px;
+}
+
 div.document
 {
   position: relative;
