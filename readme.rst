@@ -37,23 +37,24 @@ for their own publications.  They would also be asked to submit their
 articles back to this file for posterity.  An example of the format of this
 file is as follows::
 
-    {
-        {'id': 'doi:10.1088/0067-0049/199/1/5',
-         'doi': '10.1088/0067-0049/199/1/5',
-         'dependencies': ['cython', 'numpy', 'libpsht', 'wavemoth', 'nose'],
-         'version': '0.1-dev'
+    {'doi:10.1088/0067-0049/199/1/5': {
+        'id': 'doi:10.1088/0067-0049/199/1/5',
+        'doi': '10.1088/0067-0049/199/1/5',
+        'dependencies': ['cython', 'numpy', 'libpsht', 'wavemoth', 'nose'],
+        'version': '0.1-dev'
         },
-        {'id': 'PER-GRA:2007',
-         'type': 'article',
-         'author': ['Fenando Perez', 'Brian E. Granger'],
-         'title': "IPython: a System for Interactive Scientific Computing',
-         'journal': 'Comput. Sci. Eng.',
-         'volume': 9,
-         'number': 3,
-         'pages': '21-29',
-         'month': 'may',
-         'year': 2007,
-         'url': "http://ipython.org",
+     'PER-GRA:2007': {
+        'id': 'PER-GRA:2007',
+        'type': 'article',
+        'author': ['Fenando Perez', 'Brian E. Granger'],
+        'title': "IPython: a System for Interactive Scientific Computing',
+        'journal': 'Comput. Sci. Eng.',
+        'volume': 9,
+        'number': 3,
+        'pages': '21-29',
+        'month': 'may',
+        'year': 2007,
+        'url': "http://ipython.org",
         }
         ...
     }
